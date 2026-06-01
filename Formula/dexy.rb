@@ -7,6 +7,7 @@ class Dexy < Formula
 
   def install
     bin.install "dexy"
+    man1.install "dexy.1"
   end
 
   test do
