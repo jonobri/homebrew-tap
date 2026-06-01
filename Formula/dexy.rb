@@ -11,6 +11,7 @@ class Dexy < Formula
   end
 
   test do
-    assert_match "dexy 1.0.0", shell_output("#{bin}/dexy -v")
+    # `version` tracks the release tag, so this stays correct across bumps.
+    assert_match "dexy #{version}", shell_output("#{bin}/dexy -v")
   end
 end
