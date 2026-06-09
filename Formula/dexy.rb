@@ -1,8 +1,8 @@
 class Dexy < Formula
   desc "Keep your Mac wide awake — lid closed, on battery, no nonsense"
   homepage "https://github.com/jonobri/dexy"
-  url "https://github.com/jonobri/dexy/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "76cb53e37f9cf976578ffc0f633ef89577dcbd5228e9fd17f9a04a0d611f4726"
+  url "https://github.com/jonobri/dexy/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "4a2ef6b65e1fd0fdfd3d5bd2dda3bed59181070e56623f60ebb9205e5de0a0fc"
   license "MIT"
 
   def install
