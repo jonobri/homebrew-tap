@@ -3,8 +3,8 @@ class Shuck < Formula
 
   desc "Get the documents out of a JavaScript shell"
   homepage "https://github.com/jonobri/shuck"
-  url "https://github.com/jonobri/shuck/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "c0865958e3249baf8ca986d85ad8b149b7a6ae64dcda3abd5616fc5a4bbf7b09"
+  url "https://github.com/jonobri/shuck/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "ca9c5e7b83fd7addf38343b2ea69cb06efd95808be3d1f2882e12667bfa8c01d"
   license "MIT"
 
   depends_on "python@3.13"
